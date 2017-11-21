@@ -1,5 +1,6 @@
 def initialize(context):
     g.security = '600570.SS'
+
     set_universe([g.security])
 
 def handle_data(context, data):
